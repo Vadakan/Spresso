@@ -17,5 +17,5 @@ func main() {
 	EmptyStack := EmptyStack()
 
 	fmt.Println("Trying to commit :", EmptyStack)
-	fmt.Println("Try to pushhhhh...")
+	fmt.Println("Try to pushhhhhh...")
 }
