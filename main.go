@@ -8,6 +8,10 @@ func EmptyStack() []int {
 	return stack
 }
 
+func Push(inp ...int) {
+	stack = append(stack, inp...)
+}
+
 func main() {
 
 	EmptyStack := EmptyStack()
