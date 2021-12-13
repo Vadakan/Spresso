@@ -16,6 +16,6 @@ func main() {
 
 	EmptyStack := EmptyStack()
 
-	fmt.Println(EmptyStack)
+	fmt.Println("print Empty",EmptyStack)
 
 }
