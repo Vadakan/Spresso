@@ -12,6 +12,11 @@ func Push(inp ...int) {
 	stack = append(stack, inp...)
 }
 
+func Pop(inp int) {
+	temp := len(stack) - 1
+	stack = stack[1:temp]
+}
+
 func main() {
 
 	EmptyStack := EmptyStack()
